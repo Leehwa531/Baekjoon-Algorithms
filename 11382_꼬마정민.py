@@ -1,0 +1,3 @@
+# 정민이는 이제 숫자 2개 덧셈보다 숫자 3개 덧셈을 원해요...
+A,B,C=map(int,input().split())
+print(A+B+C)
