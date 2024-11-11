@@ -6,9 +6,9 @@ from math import ceil
 H,W,N,M = map(int,input().split())
 
 #가로행  사람 수
-rows = ceil(W//(M+1))
+rows = ceil(W/(M+1))
 #세로열 사람 수
-cols = ceil(H//(N+1))
+cols = ceil(H/(N+1))
 
 #가로*세로 가 총 앉을 수 있는 사람 수
 print(rows * cols)
