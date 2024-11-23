@@ -1,7 +1,9 @@
 T = int(input())
-for i in range(T):
-  a, b= map(int, input().split())
-  aa, bb = a, b 
-while a%b!=0:
-  a,b = b, a%b
-  print(aa*bb//b)
+for _ in range(T):
+    A, B = map(int, input().split())
+    result = A*B
+
+    while B>0:
+        A,B = B, A%B
+
+    print(result//A)
