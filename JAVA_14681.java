@@ -20,5 +20,7 @@ public class JAVA_14681 {
     else{
       System.out.println("3");
     }
+
+    sc.close();
   }
 }

@@ -19,5 +19,7 @@ public class JAVA_2562 {
       }
     }
     System.out.println(max + "\n" + index);
+
+    sc.close();
   }
 }

@@ -27,5 +27,7 @@ public class JAVA_2480 {
         }
         
         System.out.println(money);
+
+        sc.close();
     }
 }

@@ -5,5 +5,7 @@ public class JAVA_18108 {
     Scanner sc = new Scanner(System.in);
     int year = sc.nextInt();
     System.out.println(year-543);
+
+    sc.close();
   }
 }

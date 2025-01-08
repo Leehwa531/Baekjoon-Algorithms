@@ -5,5 +5,7 @@ public class JAVA_10926 {
     Scanner sc = new Scanner(System.in);
     String name = sc.next();
     System.out.println(name+"??!");
+
+    sc.close();
   }
 }
