@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.*;
 
 public class JAVA_2903{
   public static void main(String[] args) throws Exception{
