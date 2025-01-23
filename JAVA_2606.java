@@ -30,6 +30,8 @@ public class JAVA_2606 {
         // DFS 실행
         DFS(1);
         System.out.println(count); // 감염된 컴퓨터 수 출력
+
+        sc.close();
     }
 
     public static void DFS(int V) {

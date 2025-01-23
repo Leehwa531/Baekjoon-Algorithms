@@ -19,5 +19,6 @@ public class JAVA_10093 {
                 System.out.print(i + " ");
             }
         }
+        sc.close();
     }
 }

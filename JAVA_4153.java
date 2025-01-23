@@ -22,5 +22,6 @@ public class JAVA_4153 {
         System.out.println("wrong");
       }
     }
+    sc.close();
   }
 }

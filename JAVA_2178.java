@@ -28,6 +28,7 @@ public class JAVA_2178 {
     }
 
     System.out.println(BFS(0,0));
+    sc.close();
   }
   public static int BFS(int startX,int startY){
     Queue<int[]> queue = new LinkedList<>();

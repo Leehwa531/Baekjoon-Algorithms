@@ -24,5 +24,6 @@ public class JAVA_1181 {
         for (String word : set) {
             System.out.println(word);
         }
+        sc.close();
     }
 }

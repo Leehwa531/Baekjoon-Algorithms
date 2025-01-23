@@ -44,6 +44,8 @@ public class JAVA_2667 {
     for(int houses:results){
       System.out.println(houses); //단지별 붙어있는 집의 수
     }
+
+    sc.close();
   }
 
   public static void DFS(int X,int Y){

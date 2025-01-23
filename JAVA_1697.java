@@ -11,6 +11,7 @@ public class JAVA_1697 {
         N = sc.nextInt();
         K = sc.nextInt();
         System.out.println(BFS());
+        sc.close();
     }
 
     public static int BFS() {
