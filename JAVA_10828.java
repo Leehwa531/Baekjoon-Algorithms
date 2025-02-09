@@ -1,6 +1,6 @@
-  import java.util.Scanner;
+import java.util.Scanner;
 
-  public class JAVA_10828 {
+public class JAVA_10828 {
     public static int[] stack;
     public static int size = 0;
 
@@ -66,4 +66,4 @@
     public static int top() {
         return size == 0 ? -1 : stack[size - 1];
     }
-  }
+}
