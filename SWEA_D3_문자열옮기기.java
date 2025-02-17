@@ -10,7 +10,7 @@ public class SWEA_D3_문자열옮기기 {
 
     for (int t = 0; t < T; t++) { // T 테스트 케이스만큼 반복
       String S = br.readLine(); // 문자열 입력 받기
-      int K = Integer.parseInt(br.readLine()); // 연산 횟수 입력 받기
+      // int K = Integer.parseInt(br.readLine()); // 연산 횟수 입력 받기
       String[] operations = br.readLine().split(" "); // K개의 연산을 공백으로 분리
       
       // 문자열을 StringBuilder로 초기화

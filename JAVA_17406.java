@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class JAVA_17406 {
 
@@ -38,6 +37,7 @@ public class JAVA_17406 {
 
         int result = turn(rcs, a, k);
         System.out.println(result);
+        sc.close();
     }
 
     static int turn(int[][] rcs, int[][] a, int k) {

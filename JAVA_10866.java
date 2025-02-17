@@ -38,5 +38,6 @@ public class JAVA_10866 {
           break;
       }
     }
+    sc.close();
   }
 }

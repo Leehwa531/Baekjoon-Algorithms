@@ -26,6 +26,7 @@ public class JAVA_11725 {
     }
 
     BFS();
+    sc.close();
   }
 
   static void BFS(){

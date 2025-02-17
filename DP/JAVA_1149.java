@@ -1,7 +1,6 @@
 package DP;
 //RGB 거리
 import java.io.*;
-import java.util.*;
 
 public class JAVA_1149{
   public static int n;

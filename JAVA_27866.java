@@ -7,6 +7,6 @@ public class JAVA_27866 {
     int num = sc.nextInt();
 
     System.out.println(S.charAt(num-1));
-
+    sc.close();
   }
 }

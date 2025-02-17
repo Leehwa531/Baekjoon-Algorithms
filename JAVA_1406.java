@@ -1,4 +1,3 @@
-import java.util.*;
 import java.io.*;
 
 public class JAVA_1406 {

@@ -7,7 +7,7 @@ public class SWEA_D2_이진수 {
     int T = sc.nextInt();
 
     for (int testCase = 0; testCase < T; testCase++) {
-      int size = sc.nextInt(); // 16진수 길이
+      // int size = sc.nextInt(); // 16진수 길이
       String hex = sc.next();  // 16진수 문자열
       
       StringBuilder binary = new StringBuilder();

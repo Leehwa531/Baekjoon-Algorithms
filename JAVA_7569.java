@@ -14,6 +14,7 @@ public class JAVA_7569 {
         m = sc.nextInt(); // 가로 (열)
         n = sc.nextInt(); // 세로 (행)
         h = sc.nextInt(); // 높이 (층)
+        sc.close();
         map = new int[h][n][m];
 
         // 입력 받기 & 익은 토마토를 큐에 삽입
@@ -48,6 +49,7 @@ public class JAVA_7569 {
 
         // 최종 결과 출력 (첫 날이 1이므로 1을 빼줘야 함)
         System.out.println(maxDay - 1);
+        sc.close();
     }
 
     static void BFS() {

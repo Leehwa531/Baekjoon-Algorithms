@@ -12,5 +12,6 @@ public class JAVA_1676 {
     }
     
     System.out.println(count);
+    sc.close();
   }
 }

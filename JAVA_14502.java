@@ -23,6 +23,7 @@ public class JAVA_14502 {
         }
         makeWalls(0,0);
         System.out.println(maxSafe);
+        sc.close();
     }
 
     //입력받은 map에 벽을 세우자

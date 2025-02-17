@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class JAVA_1 {
 
@@ -39,6 +38,7 @@ public class JAVA_1 {
 
         int result = turn(rcs, a, k);
         System.out.println(result);
+        sc.close();
     }
 
     static int turn(int[][] rcs, int[][] a, int k) {
@@ -55,7 +55,7 @@ public class JAVA_1 {
         for(int index = 0; index < permuSize ; index++){
           int r = rcs[order[index][0]][0];
           int c = rcs[order[index][1]][1];
-          int s = rcs[order[index][2]][2];
+          // int s = rcs[order[index][2]][2];
           
           for(int depth = 1 ; depth <= k ; depth++){
 

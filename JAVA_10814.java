@@ -38,5 +38,6 @@ public class JAVA_10814 {
             sb.append(p.age).append(" ").append(p.name).append("\n");
         }
         System.out.print(sb);
+        sc.close();
     }
 }

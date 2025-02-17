@@ -11,5 +11,6 @@ public class JAVA_2579 {
       steps[i] = sc.nextInt();
     }
     
+    sc.close();
   }
 }

@@ -24,6 +24,7 @@ public class JAVA_17070 {
         }
         
         System.out.println(result);
+        sc.close();
     }
     
     // state: 1 = 가로, 2 = 세로, 3 = 대각선
@@ -41,7 +42,7 @@ public class JAVA_17070 {
             }
             // 대각선
             if(x + 1 < n && y + 1 < n 
-               && map[y][x+1] == 0 && map[y+1][x] == 0 && map[y+1][x+1] == 0) {
+                && map[y][x+1] == 0 && map[y+1][x] == 0 && map[y+1][x+1] == 0) {
                 DFS(y+1, x+1, 3);
             }
         }
@@ -53,7 +54,7 @@ public class JAVA_17070 {
             }
             // 대각선
             if(x + 1 < n && y + 1 < n 
-               && map[y][x+1] == 0 && map[y+1][x] == 0 && map[y+1][x+1] == 0) {
+                && map[y][x+1] == 0 && map[y+1][x] == 0 && map[y+1][x+1] == 0) {
                 DFS(y+1, x+1, 3);
             }
         }
@@ -69,7 +70,7 @@ public class JAVA_17070 {
             }
             // 대각선
             if(x + 1 < n && y + 1 < n 
-               && map[y][x+1] == 0 && map[y+1][x] == 0 && map[y+1][x+1] == 0) {
+                && map[y][x+1] == 0 && map[y+1][x] == 0 && map[y+1][x+1] == 0) {
                 DFS(y+1, x+1, 3);
             }
         }

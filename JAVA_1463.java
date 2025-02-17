@@ -28,5 +28,6 @@ public class JAVA_1463 {
 
 
         System.out.println(dp[n]);
+        sc.close();
     }
 }

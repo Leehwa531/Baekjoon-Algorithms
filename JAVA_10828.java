@@ -37,6 +37,7 @@ public class JAVA_10828 {
             }
         }
         System.out.println(sb);
+        in.close();
     }
 
     public static void push(int item) {
