@@ -27,9 +27,10 @@ public interface JAVA_4485 {
     }
   }
   private static int dijkstra(int n, int[][] map) {
-    int[][] distance = new int[n][n];
+    int[][] distance = new int[n][n]; //거리 저장 배열 초기화
+
     for (int i = 0; i<n; i++){
-      Arrays.fill(distance[i], Integer.MAX_VALUE);
+      Arrays.fill(distance[i], Integer.MAX_VALUE);  //최단거리안에 최대값으로 초기화
     }
 
     distance[0][0] = map[0][0]; //시작지점 거리비용 넣기
